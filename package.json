@@ -1,0 +1,26 @@
+{
+	"type": "module",
+	"scripts": {
+		"dev": "vitepress dev docs",
+		"build": "vitepress build docs",
+		"preview": "vitepress preview docs",
+		"format": "dprint fmt",
+		"prepare": "husky"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.4.19",
+		"dprint": "^0.45.1",
+		"git-cliff": "^2.3.0",
+		"husky": "^9.0.11",
+		"medium-zoom": "^1.0.8",
+		"tailwindcss": "^3.4.3",
+		"vite": "^5.1.4",
+		"vitepress": "^1.2.0",
+		"vue": "^3.4.27"
+	},
+	"pnpm": {
+		"peerDependencyRules": {
+			"ignoreMissing": ["@algolia/client-search", "search-insights"]
+		}
+	}
+}
