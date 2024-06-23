@@ -8,16 +8,13 @@
 </template>
 
 <script lang="ts" setup>
+interface Post {
+	title: string;
+	cover: string;
+	link: string;
+}
 
-    interface Post {
-        title: string;
-        cover: string;
-        link: string;
-    }
-
-    const props = defineProps<{
-        post: Post[];
-    }>();
-
-
+const props = defineProps<{
+	post: Post[];
+}>();
 </script>
