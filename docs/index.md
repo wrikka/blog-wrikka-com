@@ -23,11 +23,6 @@ hero:
   import BlogIndex from "./.vitepress/theme/components/BlogIndex.vue"
 
   const posts = [
-    {
-    title: 'เปรียบเทียบ AI Coding Assistance',
-    cover: 'https://res.cloudinary.com/daldcdwqs/image/upload/v1718854883/wrikka-obsidian/gigdaawjypk8anqbb8r3.webp',
-    link: 'ai-coding-assistance-compare'
-  },
   {
     title: 'แนะนำ VSCode Extensions ดีๆ ไม่มีไม่ได้แล้ว',
     cover: 'https://res.cloudinary.com/daldcdwqs/image/upload/v1718854883/wrikka-obsidian/gigdaawjypk8anqbb8r3.webp',
